@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre Mim</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="../meu-portifolio/css/about.css">
+    <style>
+        .bg-dark-custom {
+            background-color: #121212;
+        }
+        .btn-outline-cyan {
+            border-color: #00bcd4;
+            color: #00bcd4;
+        }
+        .btn-outline-cyan:hover {
+            background-color: #00bcd4;
+            color: #fff;
+        }
+        .text-cyan {
+            color: #00bcd4 !important;
+        }
+        .about-section {
+            background: linear-gradient(to right, #f0f0f0, #e8e8e8);
+        }
+        .border-cyan {
+            border-color: #00bcd4 !important;
+        }
+        .skill-card {
+            background: rgba(0, 0, 0, 0.8);
+            border: 1px solid #00bcd4;
+        }
+        .skill-card .card-body {
+            color: #00bcd4;
+        }
+        .social-icons a {
+            color: #00bcd4;
+            transition: color 0.3s ease;
+        }
+        .social-icons a:hover {
+            color: #fff;
+        }
+    </style>
+</head>
+<body class="bg-dark-custom text-light">
+
+    <!-- Header -->
+    <header class="navbar navbar-expand-lg navbar-dark bg-black py-3 shadow-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand text-cyan" href="index.html">Meu Portfólio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link text-cyan" href="../meu-portifolio/index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link text-cyan" href="../meu-portifolio/about.html">Sobre Mim</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <!-- Sobre Mim Section -->
+    <section class="about-section py-5">
+        <div class="container">
+            <h2 class="text-center text-cyan mb-5 animate__animated animate__fadeInUp">Sobre Mim</h2>
+            <div class="row align-items-center">
+                <div class="col-md-6 mb-4 mb-md-0 animate__animated animate__fadeInLeft">
+                    <img src="../meu-portifolio/img/carlos.jpg" class="img-fluid rounded-circle border border-cyan" alt="Minha Foto">
+                </div>
+                <div class="col-md-6 animate__animated animate__fadeInRight">
+                    <p class="lead text-dark mb-4">Sou um desenvolvedor apaixonado por criar soluções inovadoras. Tenho experiência em diversas áreas do desenvolvimento, incluindo front-end, back-end, e banco de dados.</p>
+                    <div class="d-flex flex-column flex-md-row">
+                        <a href="www.linkedin.com/in/carlos-gonçalves-7013ba320" class="btn btn-outline-cyan mb-2 mb-md-0 me-md-2">LinkedIn</a>
+                        <a href="#" class="btn btn-outline-cyan">GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Habilidades Section -->
+    <section class="skills-section py-5">
+        <div class="container">
+            <h2 class="text-center text-cyan mb-5 animate__animated animate__fadeInUp">Minhas Habilidades</h2>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-3">
+                    <div class="card skill-card text-center shadow-sm animate__animated animate__fadeInUp">
+                        <div class="card-body">
+                            <h5 class="card-title">Banco de Dados</h5>
+                            <p class="card-text">Experiência com MySQL, MongoDB.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card skill-card text-center shadow-sm animate__animated animate__fadeInUp">
+                        <div class="card-body">
+                            <h5 class="card-title">Front-End</h5>
+                            <p class="card-text">Experiência com JavaScript, CSS, HTML.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card skill-card text-center shadow-sm animate__animated animate__fadeInUp">
+                        <div class="card-body">
+                            <h5 class="card-title">Back-End</h5>
+                            <p class="card-text">Experiência com PHP, Java, Python.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card skill-card text-center shadow-sm animate__animated animate__fadeInUp">
+                        <div class="card-body">
+                            <h5 class="card-title">Frameworks</h5>
+                            <p class="card-text">Experiência com Laravel, React, Node.js, Spring Boot, Bootstrap.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black text-cyan py-4">
+        <div class="container text-center">
+            <div class="mb-3 social-icons">
+                <a href="www.linkedin.com/in/carlos-gonçalves-7013ba320" class="me-3"><i class="fab fa-linkedin fa-2x"></i></a>
+                <a href="#" class="me-3"><i class="fab fa-github fa-2x"></i></a>
+            </div>
+            <p class="mb-0">&copy; 2024 Meu Nome. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script src="../js/main.js"></script>
+</body>
+</html>
